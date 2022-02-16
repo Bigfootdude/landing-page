@@ -1,0 +1,193 @@
+#box {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+#header {
+	background-color: #1F2937;
+	height: auto;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+#first {
+	background-color: #1F2937;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 5%;
+	padding: 15px;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+#second {
+	height: auto;
+	flex-direction: column;
+	flex: 1 1 auto;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	padding: 50px;
+}
+
+#third {
+	background-color: #E5E7EB;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+}
+
+#fourth {
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+#footer {
+	background-color: #1F2937;
+	color: #E5E7EB;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+#logo {
+	font-size: 24px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+#links {
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	gap: 5em;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #E5E7EB;
+}
+ 
+#container {
+	display: flex;
+	background-color: #3882F6;
+	width: 800px;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	gap: 40px;
+	border: hidden;
+	border-radius: 5px;
+}
+
+#container span {
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+#container div {
+	color: white;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+.firstlayers {
+	flex: 1 1 auto;
+	display: flex;
+}
+
+.imgbox {
+	display:flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.imgbox img {
+	width: auto;
+	height: 150px;
+	padding: 0px;
+	border: solid;
+	border-width: 4px;
+	border-color: #3882F6;
+	border-radius: 20px;
+}
+
+.imgtext{
+	text-align: center;
+	width: 200px;
+	color: #1F2937;
+}
+
+.imgblock {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 10px;
+	flex: 1 1 180px;
+}
+
+.Title {
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.first img {
+	width: auto;
+	height: 200px;
+}
+
+.signUp {
+	width: 400px;
+	height: auto;
+}
+
+.signUp h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+button {
+	background-color: #3882F6;
+	color: white;
+	font-weight:700;
+	width: 70px;
+	height: 40px;
+	border: hidden;
+	border-radius: 5px;
+}
+
+#container button {
+	border: solid;
+	border-color: white;
+	border-radius: 5px;
+	font-weight: 600;
+	width: 100px;
+	height: 50px;
+	color: white;
+}
+
+#quote {
+	width: 600px;
+	word-wrap: normal;
+	font-size: 36px;
+	font-weight: lighter;
+	font-family: italic;
+	color: #1F2937;
+}
+
+#quote span {
+	font-weight: bold;
+}
+
